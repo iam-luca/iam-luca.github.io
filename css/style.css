@@ -773,10 +773,10 @@ header .intro-text {
 	top: 0;
 	bottom: 0;
 	position: fixed;
-	backdrop-filter: blur(15px);
+	backdrop-filter: blur(25px);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #0000007d;
+	background-color: #000000b0;
  }
 
  #about img
