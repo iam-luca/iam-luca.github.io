@@ -799,7 +799,12 @@ header .intro-text {
 
 .intro-text > *
 	{
-		white-space: nowrap;https://github.com/luca-lc/luca-lc.github.io/blob/main/img/loading.gif
+		white-space: nowrap;
+		width: 100%;
+		animation: typeing 5s steps(120, end);
+		overflow: hidden;
+	}
+@keyframes typeing
 	{
 		from
 			{
