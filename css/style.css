@@ -16,7 +16,7 @@ h2 {
 	line-height: 20px;
 	margin: 0;
 	color: #121d1f;
-	font-weight: 400;
+	font-weight: bold;
 	margin-bottom: 30px;
 	font-size: 34px;
 }
@@ -228,14 +228,15 @@ hr {
 	padding: 0px;
 }
 #skills .skill h4 {
-	font-weight: 600;
+	font-size: 30px;
+	font-weight: normal;
 	color: #000;
 }
 .chart {
 	position: relative;
 	display: inline-block;
-	width: 152px;
-	height: 152px;
+	width: 100px;
+	height: 100px;
 	margin-bottom: 26px;
 	text-align: center;
 }
@@ -246,15 +247,15 @@ hr {
 }
 .percent {
 	display: inline-block;
-	font-size: 21px;
+	font-size: 30px;
 	color: #121d1f;
-	line-height: 152px;
+	line-height: 100px;
 	z-index: 2;
 }
 .percent:after {
 	content: '%';
 	margin-left: 0.1em;
-	font-size: .8em;
+	font-size: .6em;
 }
 /* Portfolio Section */
 #portfolio, #about {
@@ -508,15 +509,19 @@ ol.type li a:hover {
 .timeline .timeline-heading h4 {
 	margin-top: 0;
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 22px;
 }
 .timeline .timeline-heading h2 {
 	margin-top: 30px;
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #629ca7;
-	font-size: 20px;
+	color: #7e7700;
+	font-size: 18px;
+	font-weight: normal;
+}
+.timeline .timeline-heading h4.subheading>a{
+	color: #7e7700;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
@@ -764,9 +769,10 @@ header .intro-text {
 
 
 /* my changes	*/
+
 #hideAll
  {
-	z-index: 99;
+	z-index: 150;
 	background-image: url("../img/loading.gif");
 	left: 0;
 	right: 0;

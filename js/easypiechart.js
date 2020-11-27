@@ -205,7 +205,7 @@ var EasyPieChart = function(el, opts) {
 		scaleLength: 0,
 		lineCap: 'square',
 		lineWidth: 7,
-		size: 152,
+		size: 100,
 		rotate: 0,
 		animate: 1000,
 		easing: function (x, t, b, c, d) { // more can be found here: http://gsgd.co.uk/sandbox/jquery/easing/
