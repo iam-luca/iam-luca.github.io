@@ -767,7 +767,7 @@ header .intro-text {
 #hideAll
  {
 	z-index: 99;
-	background-image: url("https://github.com/luca-lc/luca-lc.github.io/blob/main/img/loading.gif");
+	background-image: url("./img/loading.gif");
 	left: 0;
 	right: 0;
 	top: 0;
