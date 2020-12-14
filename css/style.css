@@ -769,6 +769,16 @@ header .intro-text {
 
 
 /* my changes	*/
+.pp_description::before
+	{	
+		font-size: 10px;
+		content: "click below for more details";
+	}
+.pp_description > a > h3
+	{
+		color: #d3c72a;
+		text-align: center;
+	}
 
 #hideAll
  {
