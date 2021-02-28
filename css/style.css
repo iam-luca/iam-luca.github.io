@@ -857,9 +857,20 @@ header .intro-text {
 	{
 		padding-bottom: 0;
 	}
-@media(min-width:320px) and (max-width: 768px)
+@media(max-width: 767px)
 	{
-
+		.intro > div
+		{
+			top: 60%;
+			position: absolute;
+		}
+	}
+@media(min-width:260px) and (max-width: 768px)
+	{
+		#header
+			{
+				height: 90vh;
+			}
 		.intro-text > *
 			{
 				animation: none;
@@ -879,6 +890,8 @@ header .intro-text {
 		.intro
 			{
 				text-align: left;
+				height: 100vh;
+				background-position: right;
 			}
 		.intro > *
 			{
