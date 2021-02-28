@@ -861,7 +861,7 @@ header .intro-text {
 	{
 		.intro > div
 		{
-			top: 60%;
+			top: 70%;
 			position: absolute;
 		}
 	}
@@ -869,6 +869,7 @@ header .intro-text {
 	{
 		#header
 			{
+				width: 101%;
 				height: 90vh;
 			}
 		.intro-text > *
