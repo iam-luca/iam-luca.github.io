@@ -928,10 +928,6 @@ header .intro-text {
 	{
 		background-color: #0d0d0d;
 	}
-.page-scroll
-	{
-		font-weight: bold;
-	}
 .active > a
 	{
 		color: #f7eb30;
@@ -940,4 +936,8 @@ header .intro-text {
 .navbar-custom .nav li a:focus
 	{
 		color: white
+	}
+.navbar-custom .nav li a
+	{
+		font-weight: bold;
 	}
