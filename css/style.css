@@ -135,8 +135,8 @@ hr {
 .navbar-custom .nav li.active {
 	outline: 0;
 }
-.navbar-custom .nav li.active a {
-	background-color: rgba(255,255,255,.3);
+/* .navbar-custom .nav li.active a {
+	background-color: rgba(255,255,255,.3); */
 }
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
@@ -259,7 +259,7 @@ hr {
 }
 /* Portfolio Section */
 #portfolio, #about {
-	padding: 80px 0;
+	padding: 120px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #f4f5f6 49%, #ffffff 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(49%, #f4f5f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
@@ -910,4 +910,34 @@ header .intro-text {
 			}
 	}
 
-	
+#navlogo
+	{
+		width: 60px;
+	}
+.navbar-brand
+	{
+		height: 60px;
+		padding: 0px 10px;
+	}
+.fa-bars:before
+	{
+		font-size: 20px;
+		color: white
+	}
+.navbar-custom
+	{
+		background-color: #0d0d0d;
+	}
+.page-scroll
+	{
+		font-weight: bold;
+	}
+.active > a
+	{
+		color: #f7eb30;
+		border-bottom: 1px solid #f7eb30;
+	}
+.navbar-custom .nav li a:focus
+	{
+		color: white
+	}

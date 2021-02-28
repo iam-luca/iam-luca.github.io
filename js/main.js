@@ -16,6 +16,21 @@ function main() {
           }
         }
       });
+    
+  // $('.page-scroll').click(function(){
+  //   if ( $(this).attr('href') != '#page-top' ){
+  //     $('.page-scroll').removeClass('active');
+  //     $(this).addClass('active');
+  //   }
+  //   else{
+  //     $('.page-scroll').removeClass('active');
+  //   }
+  // });
+
+$("body").scrollspy({
+    target: ".navbar",
+    offset: 60
+}) 
 
 	// affix the navbar after scroll below header
 $('#nav').affix({
@@ -93,8 +108,8 @@ $('#nav').affix({
 		social_tools: false
 	});	
 
-}());
 
+}());
 
 }
 main();
