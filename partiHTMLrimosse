@@ -178,3 +178,55 @@
   </div>
 </div>
 <!-- -->
+
+
+CATEGORIE POTFOLIO
+          <!-- <div class="categories">
+            <ul class="cat">
+              <li>
+                <ol class="type">
+                  <li><a href="#" data-filter="*" class="active">All</a></li>
+                  <li><a href="#" data-filter=".web">IoT</a></li>
+                  <li><a href="#" data-filter=".app">App Development</a></li>
+                  <li><a href="#" data-filter=".branding">OS</a></li>
+                </ol>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+          </div> -->
+
+
+
+
+FORM
+<!-- <div class="col-md-8 col-md-offset-2">
+            <h3>or leave me a message</h3>
+            <form name="sentMessage" id="contactForm" novalidate>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control" placeholder="Name*" required="required">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" id="email" class="form-control" placeholder="Email*" required="required">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group" id="required"><p>(*) required field</p></div>
+              <div id="success"></div>
+              <button type="submit" class="btn btn-default">Send Message</button>
+            </form>
+          </div> -->
+
+
+
+PRIVACY POLICY
+          <a href="https://www.iubenda.com/privacy-policy/76787471" class="iubenda-black iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>

@@ -17,15 +17,9 @@ function main() {
         }
       });
     
-  // $('.page-scroll').click(function(){
-  //   if ( $(this).attr('href') != '#page-top' ){
-  //     $('.page-scroll').removeClass('active');
-  //     $(this).addClass('active');
-  //   }
-  //   else{
-  //     $('.page-scroll').removeClass('active');
-  //   }
-  // });
+$(document).ready(function( ){
+  $("#year").text((new Date).getFullYear());
+});
 
 $("body").scrollspy({
     target: ".navbar",
@@ -108,6 +102,7 @@ $('#nav').affix({
 		social_tools: false
 	});	
 
+  
 
 }());
 
