@@ -131,8 +131,8 @@ hr {
 	outline: 0;
 }
 /* .navbar-custom .nav li.active a {
-	background-color: rgba(255,255,255,.3); */
-}
+	background-color: rgba(255,255,255,.3); 
+}*/
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
@@ -808,17 +808,17 @@ header .intro-text {
 
 #hideAll
  {
-	z-index: 150;
+	z-index: 99999;
 	background-image: url("../img/loading.gif");
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
 	position: fixed;
-	backdrop-filter: blur(25px);
+	backdrop-filter: blur(40px);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #000000b0;
+	background-color: #000000d9;
  }
 
  #about img
