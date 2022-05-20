@@ -131,8 +131,8 @@ hr {
 	outline: 0;
 }
 /* .navbar-custom .nav li.active a {
-	background-color: rgba(255,255,255,.3); 
-}*/
+	background-color: rgba(255,255,255,.3); */
+}
 .navbar-custom .nav li.active a:hover {
 	color: #fff;
 }
@@ -188,7 +188,6 @@ hr {
 }
 /* About Section */
 #about {
-	padding: 100px 0;
 	background: #f6f6f6;
 }
 #about .about-text {
@@ -808,17 +807,17 @@ header .intro-text {
 
 #hideAll
  {
-	z-index: 99999;
+	z-index: 150;
 	background-image: url("../img/loading.gif");
 	left: 0;
 	right: 0;
 	top: 0;
 	bottom: 0;
 	position: fixed;
-	backdrop-filter: blur(40px);
+	backdrop-filter: blur(25px);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #000000d9;
+	background-color: #000000b0;
  }
 
  #about img
