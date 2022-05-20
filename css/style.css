@@ -170,6 +170,7 @@ hr {
 }
 /* Home Section */
 .intro {
+	box-shadow: inset 0px 0px 272px 0px #fcf8e363;
 	display: table;
 	width: 100%;
 	height: auto;
@@ -683,6 +684,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 0;
 	text-align: left;
 	color: #fff;
+	box-shadow: inset 0px 0px 272px 0px #fcf8e363;
 }
 .intro H1 {
 	font-size: 60px;
@@ -918,6 +920,7 @@ header .intro-text {
 				text-align: left;
 				height: 100vh;
 				background-position: right;
+				box-shadow:inset 0px 0px 272px 0px #fcf8e363;
 			}
 		.intro > *
 			{
