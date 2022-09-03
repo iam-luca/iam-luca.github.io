@@ -273,7 +273,7 @@ hr {
 	background: linear-gradient(0deg, #ffffff -17%, #ffffb052 10%, #ffffff 90%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
-#portfolio{
+#portfolio, #uni-projects, #my-projects{
 	padding: 120px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #ffffb052 100%, #ffffff 100%); /* FF3.6+ */
@@ -415,7 +415,7 @@ ol.type li a:hover {
 .hover-bg:hover .hover-text {
 	opacity: 1;
 }
-#portfolio i.fa, #portfolio i.fa-brands {
+#portfolio i.fa, #uni-projects i.fa, #my-projects i.fa, #portfolio i.fa-brands, #uni-projects i.fa-brands, #my-projects i.fa-brands {
 	font-size: 20px;
 	padding: 5px;
 	color: #E87E04;
