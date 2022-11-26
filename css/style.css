@@ -29,8 +29,6 @@ h3, h4 {
 }
 .section-title h2,h5 {
 	text-transform: uppercase;
-	/* font-weight: 700; */
-	/* line-height: 20px; */
 }
 .section-title h2{	
 	text-shadow: 0px 0px 26px #787878;
@@ -369,7 +367,8 @@ ol.type li a:hover {
 
 .hover-bg > a > img{
 	display: block;
-	width: 80%;
+	width: 500px;
+	/* height: 500px; */
 	margin: auto;
 	padding: 15px;
 	border-radius: 24%;
