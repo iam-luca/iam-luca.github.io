@@ -102,6 +102,22 @@ $('#nav').affix({
 		social_tools: false
 	});	
 
+
+  $(document).ready(function( ){
+    var _width = $(document).width();
+    if( _width > 767 && _width < 992 )
+      {
+        var p = $('a[href^="#my-projects"]').text().replace("Personal Projects", "Projects");
+        $('a[href^="#my-projects"]').text( p );
+        
+        var u = $('a[href^="#uni-projects"]').text().replace("University Projects", "University" );
+        $('a[href^="#uni-projects"]').text( u );
+
+        $('.navbar-collapse').css("padding-right", "0");
+        $('.navbar-collapse').css("padding-left", "0");
+
+      }
+  });
   
 
 }());
