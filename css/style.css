@@ -273,7 +273,11 @@ hr {
 	background: linear-gradient(0deg, #ffffff -17%, #ffffb052 10%, #ffffff 90%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 ); /* IE6-9 */
 }
-#portfolio, #uni-projects, #my-projects{
+#my-projects{
+  padding: 120px 0;
+	background: #ffffb08f;
+}
+#portfolio, #uni-projects{
 	padding: 120px 0;
 	background: #ffffff; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffffff 0%, #ffffb052 100%, #ffffff 100%); /* FF3.6+ */
@@ -372,7 +376,7 @@ ol.type li a:hover {
 	margin: auto;
 	padding: 15px;
 	border-radius: 24%;
-	box-shadow: inset 0px 0px 77px 0px #fff76878;
+	box-shadow: inset 0px 0px 77px 0px #fff194;
 }
 
 .hover-bg .hover-text {
@@ -549,23 +553,26 @@ ol.type li a:hover {
 }
 .timeline .timeline-heading h4.subheading {
 	text-transform: none;
-	color: #ffca28;
+	color: #b29e1c;
 	font-size: 18px;
 	font-weight: normal;
 }
 .timeline .timeline-heading h4.subheading>a{
-	color: #ffca28;
+	color: #b29e1c;
 	/* font-weight: 300; */
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
 }
+#to{font-size: 13px;padding:12px 0;}
+
+
 /* Contact Section */
 #contact {
 	padding: 100px 0 40px 0;
 	color: #121d1f;
 	/* background: #7bc3d1; */
-	background: #fff768;
+	background: #fff995;
 }
 #contact h2 {
 	color: #000;
@@ -705,7 +712,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro .name {
 	font-weight: 700;
-	color: #fff768;
+	color: #fff995;
 }
 .intro .intro-text {
 	max-width: 75%;
@@ -743,8 +750,8 @@ header .intro-text {
 	margin-left: -50px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 20px;
-	line-height: 18px;
+	margin-top: 18px;
+	line-height: 11px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	float: right;
@@ -791,7 +798,7 @@ header .intro-text {
 	margin-left: -75px;
 }
 .timeline>li .timeline-image h4 {
-	margin-top: 35px;
+	margin-top: 28px;
 }
 .timeline>li.timeline-inverted>.timeline-panel {
 	padding: 30px 100px 20px 20px;
@@ -950,11 +957,11 @@ header .intro-text {
 		.intro-text > h1 > .name
 			{
 				font-weight: 700;
-				color: #fff768;
+				color: #fff995;
 			}
 		.timeline>li .timeline-image h4
 			{
-				margin-top: 10px;
+				margin-top: 8px;
 			}
 
 		
@@ -963,10 +970,11 @@ header .intro-text {
 				font-size: 9px !important;
 			}
 
-			#resume > .container > .row
+    #resume > .container > .row
 			{
 				margin: 0 15px;
 			}
+    #to{padding: 0;}
 	}
 
 #navlogo
@@ -989,8 +997,8 @@ header .intro-text {
 	}
 .active > a
 	{
-		color: #fff768;
-		border-bottom: 1px solid #fff768;
+		color: #ffca28;
+		border-bottom: 1px solid #ffca28;
 	}
 .navbar-custom .nav li a:focus
 	{
